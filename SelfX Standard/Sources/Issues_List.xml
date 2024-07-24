@@ -552,4 +552,16 @@ After reconnecting on Teams, if the issue still occur please contact your suppor
 
 Do you want to continue ?</Alerte_MSG>	
 	</Action>				
+	
+
+	<Action>	
+		<Name>I forgot my PIN for OnDemand printing.</Name>
+		<Buttons>Ok_Cancel</Buttons>								
+		<Explanation>When you use OnDemand printing you aren not prompted for a PIN. This means you have one set alaready, if you don't remembet what it is this will erase it.</Explanation>
+		<Script>Xerox_Clear_Pin.ps1</Script>
+		<Category>Printing</Category>		
+		<Alerte_MSG>This will delete your Xerox OnDemand Printing PIN.
+
+Do you want to continue ?</Alerte_MSG>	
+	</Action>				
 </Actions>
